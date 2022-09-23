@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../../assets/images/bg-pattern.png');
+}
+
+@font-face {
+    font-family: 'cocogoose';
+    src: url('../../assets/fonts/cocogoose.ttf');
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+.nav-button{
+    text-decoration: none;
+    color: black;
+    margin-left:20px;
+    font-family: 'cocogoose';
+    transition: 0.4s;
+}
+
+.nav-button:hover{
+    border-bottom: 4px solid rgba(0, 0, 0, 0.8);
+    transition: 0.2s;
+}
+
+header h1{
+    font-family: sans-serif;
+    color:white;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
+
+.first-section form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+} 
+
+.first-section form h2{
+    font-family: 'cocogoose';
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.inputbonito{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:20px;
+}
+.inputbonito:hover{
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    transition: 0.1s;
+}
+
+.form-button{
+    border:none;
+    background-color:rgba(11, 116, 168, 0.767);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding:10px;
+    transition: 0.3s;
+}
+
+.form-button:hover{
+    background-color:rgb(0, 125, 147);
+    color:white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.error-text{
+    color:red;
+}
